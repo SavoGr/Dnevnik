@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="38ec966680cb4d198c18ab37a353495a" Name="Diagram1">
+        <EntityTypeShape EntityType="DnevnikModel.Ocene" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DnevnikModel.Odeljenja" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DnevnikModel.PredmetiPoOdeljenjima" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DnevnikModel.Profesori" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DnevnikModel.RazredniStaresina" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DnevnikModel.TipOcene" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DnevnikModel.Ucenici" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DnevnikModel.ListaPredmeta" Width="1.5" PointX="5.75" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="DnevnikModel.FK_Ocene_Predmeti" ManuallyRouted="false" />
+        <AssociationConnector Association="DnevnikModel.FK_Ocene_TipOcene" ManuallyRouted="false" />
+        <AssociationConnector Association="DnevnikModel.FK_Ocene_Ucenici" ManuallyRouted="false" />
+        <AssociationConnector Association="DnevnikModel.FK_Predmeti_Odeljenja" ManuallyRouted="false" />
+        <AssociationConnector Association="DnevnikModel.FK_RazredniStaresina_Odeljenja" ManuallyRouted="false" />
+        <AssociationConnector Association="DnevnikModel.FK_Predmeti_Profesori" ManuallyRouted="false" />
+        <AssociationConnector Association="DnevnikModel.FK_RazredniStaresina_Profesori" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
